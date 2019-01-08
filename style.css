@@ -25,6 +25,7 @@ body {
 
 img {
     width: 100%;
+    height: auto;
 
 }
 
@@ -53,8 +54,41 @@ h2 {
 
 p {
     font-size: 1rem;
+
 }
 
+.hover {
+
+    transition: all .3s ease-in-out;
+}
+
+
+a:hover {
+    opacity: 0.7;
+
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    padding: 0rem 2rem;
+    margin-top: 1rem;
+
+}
+
+
+.link {
+
+    text-align: center;
+    transform: scale(1.05);
+
+}
 
 footer {
     background-color: whitesmoke;
@@ -65,32 +99,104 @@ footer {
 
 }
 
-/*forside siden*/
+/***************forside siden***************/
+.topnav {
+    height: 4rem;
+}
 
-.splash {
+.menu1 {
+    position: relative;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin: 0 1rem 1rem 1.5rem;
+}
 
+.menu1 a:hover {
+    color: black;
+}
+
+.menu1 a::before {
+    content: '';
+    display: block;
+    height: 0.2rem;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.menu1 a:hover::before {
+    width: 10%;
+}
+
+.parallax5 {
+    background-image: url(img/egentegning.png);
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.forsideh {
+    color: white;
+    font-family: cursive, verdana;
+    text-decoration: underline;
+}
+
+.knapwrapper {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
 }
 
-.hover {
+.knap1,
+.knap2 {
 
-    transition: all .3s ease-in-out;
-}
-
-a:hover {
-    opacity: 0.7;
-
-}
-
-.link {
-
-    text-align: center;
-    transform: scale(1.05);
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 0.1rem solid black;
+    margin: 2rem 1.5rem;
+    width: 7rem;
+    height: 3rem;
+    background-color: darkslategray;
+    padding: 1rem 3rem 1rem 3rem;
+    text-decoration: none;
+    transition: 0.5s ease;
 
 }
+
+.knap1 a,
+.knap2 a {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.knap1:hover {
+    background-color: grey;
+    color: white;
+    opacity: 0.9;
+}
+
+.knap2:hover {
+    background-color: grey;
+    color: white;
+    opacity: 0.9;
+}
+
+
 
 
 /*forside siden*/
@@ -165,18 +271,6 @@ a:hover {
     border: 1px solid black;
     padding: 1rem 1rem 1rem 1.3rem;
     margin: 1rem 0rem 0rem 1rem;
-}
-
-a:hover,
-a:visited,
-a:link,
-a:active {
-    text-decoration: none;
-}
-
-a {
-    color: black;
-
 }
 
 
@@ -360,4 +454,12 @@ a:hover {
     margin: 1.5rem 0rem 0rem 1.5rem;
     padding: 0rem 2rem 0rem 2rem;
 
+}
+
+.Ommig {
+
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 1.5rem 0rem 0rem 1.5rem;
+    padding: 0rem 2rem 0rem 2rem;
 }

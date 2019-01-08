@@ -45,15 +45,19 @@ h1 {
     font-size: 3rem;
     text-align: center;
     color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: normal;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
     font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+
 
 }
 
@@ -77,8 +81,8 @@ a:active {
 
 a {
     color: black;
-    padding: 0rem 2rem;
-    margin-top: 1rem;
+    padding: 0rem 0.5rem;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -90,12 +94,35 @@ a {
 
 }
 
-footer {
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 0rem 0rem 0rem 5rem;
+/*
+.footerwrapper {
 
-    /*    margin: 0rem 0rem 0rem 5rem;*/
+    position: relative;
+}
+*/
+
+.footer {
+
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
+
+}
+
+.footer1 {
+
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
 
 }
 
@@ -106,6 +133,7 @@ footer {
 
 .menu1 {
     position: relative;
+    font-family: 'Staatliches', cursive;
     float: left;
     display: block;
     color: black;
@@ -146,9 +174,11 @@ footer {
 }
 
 .forsideh {
+    text-align: left;
+    padding: 0 0 0 3rem;
     color: white;
-    font-family: cursive, verdana;
     text-decoration: underline;
+    font-family: 'Staatliches', cursive;
 }
 
 .knapwrapper {
@@ -156,6 +186,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin: 1rem 2rem;
 }
 
 .knap1,
@@ -164,23 +195,22 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 0.1rem solid black;
-    margin: 2rem 1.5rem;
+    border: 0.2rem solid black;
+    margin: 1.5rem 1.5rem;
     width: 7rem;
     height: 3rem;
     background-color: darkslategray;
-    padding: 1rem 3rem 1rem 3rem;
+    padding-top: 0.5rem;
     text-decoration: none;
     transition: 0.5s ease;
-
 }
+
 
 .knap1 a,
 .knap2 a {
     color: white;
     margin: 0;
     padding: 0;
-
 
 }
 
@@ -195,7 +225,6 @@ footer {
     color: white;
     opacity: 0.9;
 }
-
 
 
 
@@ -463,3 +492,5 @@ a:hover {
     margin: 1.5rem 0rem 0rem 1.5rem;
     padding: 0rem 2rem 0rem 2rem;
 }
+
+/*******Media queries******/

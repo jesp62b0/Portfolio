@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-bo;
+}
+
+screen {
+
+    100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+video {
+
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+
+}
+
+.hidden {
+
+    display: none;
+}
+
+
+.menuknap {
+    transition-delay: 10s;
+    width: 10px;
+    height: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+footer {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 0rem 0rem 0rem 5rem;
+
+    /*    margin: 0rem 0rem 0rem 5rem;*/
+
+}
+
+/*forside siden*/
+
+.splash {
+
+    display: flex;
+    justify-content: center;
+}
+
+.hover {
+
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    opacity: 0.7;
+
+}
+
+.link {
+
+    text-align: center;
+
+
+
+}
+
+
+/*forside siden*/
+
+/*Portfolio siden*/
+
+.parallax {
+    background-image: url(img/splash.png);
+    width: 100%;
+    height: 150px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.overskrift {
+
+    text-align: center;
+}
+
+#sectionwrapper,
+#sectionwrapper2 {
+
+
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+    margin-top: 0;
+
+}
+
+
+.box1 {
+
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.box2 {
+
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.box3 {
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.box4 {
+
+
+    width: 6rem;
+    height: 6rem;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+
+}
+
+
+a:hover {
+    color: grey;
+    transform: scale(1.05);
+}
+
+.box1:hover {
+
+    transform: scale(1.1);
+}
+
+.box2:hover {
+
+    transform: scale(1.1);
+}
+
+.box3:hover {
+
+    transform: scale(1.1);
+}
+
+.box4:hover {
+
+    transform: scale(1.1);
+}
+
+.t1,
+.t2,
+.t3,
+.t4 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+/*Portfolio siden*/
+
+/*Grundlæggende Web*/
+
+.webdesignwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.column1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 3rem 3rem 0rem 3rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+
+.column2 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 0rem 3rem 3rem 3rem;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+
+.farvepalette {
+
+
+    align-content: right;
+    width: 10rem;
+    height: 10rem;
+}
+
+#grundlaeggende web {
+    float: left;
+    width: 25%;
+}
+
+/*
+@media screen and (max-width: 990px) {
+    #grundlaeggende web {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    grundlaeggende web {
+        width: 100%;
+    }
+}*/
+
+/*Grundlæggende Web*/
+
+/*Grundlæggende Indhold*/
+.parallax2 {
+    background-image: url(img/alcohol.jpg);
+    width: 100%;
+    height: 150px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#videowrapper {
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+.slikpigen {
+
+
+    margin: 0rem 1rem 0rem 0rem;
+
+}
+
+.virksomhedsvideo {
+
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+/*Grundlæggende Indhold*/
+
+/*Grundlæggende Animation*/
+.parallax3 {
+
+    background-image: url(img/sexogsamfund.png);
+    width: 100%;
+    height: 150px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /*Grundlæggende Animation*/
+
+
+}

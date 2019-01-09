@@ -425,11 +425,6 @@ a:hover {
 
 }
 
-.virksomhedsvideo {
-
-    margin: 0rem 0rem 0rem 1rem;
-}
-
 /*Grundlæggende Indhold*/
 
 /*Grundlæggende Animation*/
@@ -494,3 +489,34 @@ a:hover {
 }
 
 /*******Media queries******/
+
+@media only screen and (max-width: 410px) {
+
+    .column1,
+    .column2 {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #videowrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .slikpigen {
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .footer1 p {
+        font-size: 0.6rem;
+    }
+}

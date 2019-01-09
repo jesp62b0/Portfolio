@@ -35,10 +35,11 @@ img {
 }
 
 
-.menuknap {
+#menuknap {
     transition-delay: 10s;
-    width: 10px;
-    height: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    padding-left: 2rem;
 }
 
 h1 {
@@ -57,8 +58,10 @@ h2 {
 p {
     font-size: 1rem;
     font-family: 'Oswald', sans-serif;
+}
 
-
+li {
+    list-style-type: none;
 }
 
 .hover {
@@ -158,9 +161,6 @@ a {
     transition: all ease-in-out 250ms;
 }
 
-.menu1 a:hover::before {
-    width: 10%;
-}
 
 .parallax5 {
     background-image: url(img/egentegning.png);
@@ -519,4 +519,22 @@ a:hover {
     .footer1 p {
         font-size: 0.6rem;
     }
+}
+
+@media only screen and (max-width:769px) {
+    .menu1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:770px) {
+    #menuknap {
+        display: none;
+    }
+}
+
+#navwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+
 }

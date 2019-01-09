@@ -18,7 +18,7 @@ function toggleMenu() {
 
     } else {
         //menu er nu vist ændre knap til X
-        document.querySelector("#menuknap").textContent = "X";
+        document.querySelector("#menuknap").textContent = "✕";
     }
 
 

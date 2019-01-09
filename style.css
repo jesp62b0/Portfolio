@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-screen {
-
-    100%;
-}
-
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -24,9 +19,12 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+}
 
+img .profil {
+    width: 80%;
 }
 
 .hidden {
@@ -34,9 +32,8 @@ img {
     display: none;
 }
 
-
 #menuknap {
-    transition-delay: 10s;
+
     font-size: 2rem;
     cursor: pointer;
     padding-left: 2rem;
@@ -64,18 +61,6 @@ li {
     list-style-type: none;
 }
 
-.hover {
-
-    transition: all .3s ease-in-out;
-}
-
-
-a:hover {
-    opacity: 0.7;
-
-}
-
-a:hover,
 a:visited,
 a:link,
 a:active {
@@ -88,21 +73,6 @@ a {
     font-family: 'Oswald', sans-serif;
 
 }
-
-
-.link {
-
-    text-align: center;
-    transform: scale(1.05);
-
-}
-
-/*
-.footerwrapper {
-
-    position: relative;
-}
-*/
 
 .footer {
 
@@ -127,6 +97,10 @@ a {
     text-align: center;
     background-color: darkslategray;
 
+}
+
+.facebook {
+    color: white;
 }
 
 /***************forside siden***************/
@@ -175,7 +149,7 @@ a {
 
 .forsideh {
     text-align: left;
-    padding: 0 0 0 3rem;
+    padding: 0 1.5rem 0 1.5rem;
     color: white;
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
@@ -305,7 +279,7 @@ a {
 
 a:hover {
     color: grey;
-    transform: scale(1.10);
+    transform: scale(1.1);
 }
 
 .box1:hover {
@@ -336,7 +310,6 @@ a:hover {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 0;
-    padding:
 
 }
 
@@ -369,33 +342,6 @@ a:hover {
     margin: 0rem 3rem 3rem 3rem;
     padding: 0rem 2rem 2rem 2rem;
 }
-
-
-.farvepalette {
-
-
-    align-content: right;
-    width: 10rem;
-    height: 10rem;
-}
-
-#grundlaeggende web {
-    float: left;
-    width: 25%;
-}
-
-/*
-@media screen and (max-width: 990px) {
-    #grundlaeggende web {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    grundlaeggende web {
-        width: 100%;
-    }
-}*/
 
 /*Grundlæggende Web*/
 
@@ -454,39 +400,12 @@ a:hover {
 
 /*Grundlæggende Animation*/
 
-.uddculumn {
+.profil {
 
-
-    flex-basis: 100px;
-    flex-grow: 1;
-    margin: 1.5rem 0rem 0rem 1.5rem;
-    padding: 0rem 2rem 0rem 2rem;
+    border-radius: 50%;
 
 }
 
-.infocomlumn {
-
-    flex-basis: 100px;
-    flex-grow: 1;
-    margin: 1.5rem 0rem 0rem 1.5rem;
-    padding: 0rem 2rem 0rem 2rem;
-}
-
-.erhvervcolumn {
-    flex-basis: 100px;
-    flex-grow: 1;
-    margin: 1.5rem 0rem 0rem 1.5rem;
-    padding: 0rem 2rem 0rem 2rem;
-
-}
-
-.Ommig {
-
-    flex-basis: 100px;
-    flex-grow: 1;
-    margin: 1.5rem 0rem 0rem 1.5rem;
-    padding: 0rem 2rem 0rem 2rem;
-}
 
 /*******Media queries******/
 
